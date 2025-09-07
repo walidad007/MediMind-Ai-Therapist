@@ -1,6 +1,22 @@
 # MediMind
 
+
+---
+
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green?logo=fastapi)
+![License](https://img.shields.io/badge/License-Pending-lightgrey)
+![GitHub stars](https://img.shields.io/github/stars/walidad007/MediMind-Ai-Therapist?style=social)
+
+---
+
+
 **MediMind** is an agentic AI-powered mental health support system that combines an LLM-based reasoning agent with tool modules and a simple Streamlit UI. It provides empathetic conversational support, evidence-grounded suggestions, and transparent tool usage while emphasizing safety and clear medical disclaimers.
+
+---
+
+![MediMind Screenshot](assets/medimind_preview.png)
 
 ---
 
@@ -26,6 +42,8 @@
 git clone https://github.com/walidad007/MediMind-Ai-Therapist.git
 cd MediMind-Ai-Therapist
 
+
+---
 
 
 
