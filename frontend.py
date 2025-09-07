@@ -9,7 +9,7 @@ import requests
 BACKEND_URL = "http://localhost:8000/ask"
 
 st.set_page_config(page_title="AI Mental Health Therapist", layout="wide")
-st.title("🧠 SafeSpace – AI Mental Health Therapist")
+st.title("🧠 MediMind – AI Mental Health Therapist")
 
 # Initialize chat history in session state
 if "chat_history" not in st.session_state:
