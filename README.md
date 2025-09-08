@@ -45,11 +45,12 @@ Here’s what the MediMind app looks like in action:
 git clone https://github.com/walidad007/MediMind-Ai-Therapist.git
 cd MediMind-Ai-Therapist
 
----
 
-## 🔹 Option A: Using uv (Recommended)
 
-# uv is a fast Python package manager.
+
+🔹 Option A: Using uv (Recommended)
+
+ uv is a fast Python package manager.
 
 # Create and activate environment
 uv venv
@@ -58,9 +59,9 @@ source .venv/bin/activate   # macOS/Linux
 uv pip install -e .
 
 
----
 
-## 🔹 Option B: Using pip (Traditional)
+
+🔹 Option B: Using pip (Traditional)
 
 # Create and activate virtual environment
 python -m venv venv
