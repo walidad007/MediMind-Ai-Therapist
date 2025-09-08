@@ -19,6 +19,7 @@
 Here’s what the MediMind app looks like in action:
 
 ![MediMind Screenshot](assets/medimind_preview.png)
+![MediMind Screenshot](assets/medimind_preview2.png)
 
 ---
 
