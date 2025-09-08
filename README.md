@@ -43,8 +43,39 @@ git clone https://github.com/walidad007/MediMind-Ai-Therapist.git
 cd MediMind-Ai-Therapist
 
 
+
+
+
+---
+
+## 🔹 Option A: Using uv (Recommended)
+
+# uv is a fast Python package manager.
+
+# Create and activate environment
+uv venv
+source .venv/bin/activate   # macOS/Linux
+.\.venv\Scripts\activate    # Windows
+
+# Install dependencies from pyproject.toml
+uv pip install -e .
+
+
+---
+
+## 🔹 Option B: Using pip (Traditional)
+
+# Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate   # macOS/Linux
+.\venv\Scripts\activate    # Windows
+
+# Install dependencies from pyproject.toml
+pip install .
+
 ---
 
 
+**⚠️ Safety & Disclaimer**
 
-
+MediMind is not a medical professional. Responses are for informational and supportive purposes only. Always consult a qualified healthcare professional for diagnosis and treatment. The system includes guardrails and system prompts to reduce harmful output, but no AI system is perfect.
