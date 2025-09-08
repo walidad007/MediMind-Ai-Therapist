@@ -42,14 +42,11 @@
 git clone https://github.com/walidad007/MediMind-Ai-Therapist.git
 cd MediMind-Ai-Therapist
 
-
-
-
-
+```bash
 ---
 
 ## 🔹 Option A: Using uv (Recommended)
-
+```bash
 # uv is a fast Python package manager.
 
 # Create and activate environment
