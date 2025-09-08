@@ -15,6 +15,8 @@
 **MediMind** is an agentic AI-powered mental health support system that combines an LLM-based reasoning agent with tool modules and a simple Streamlit UI. It provides empathetic conversational support, evidence-grounded suggestions, and transparent tool usage while emphasizing safety and clear medical disclaimers.
 
 ---
+## 🚀 Preview
+Here’s what the MediMind app looks like in action:
 
 ![MediMind Screenshot](assets/medimind_preview.png)
 
@@ -35,26 +37,24 @@
 
 ---
 
-## Quickstart (local)
+## Quickstart (Local Setup)
 
-### 1. Clone the repo
+1. **Clone the repo**
+
 ```bash
 git clone https://github.com/walidad007/MediMind-Ai-Therapist.git
 cd MediMind-Ai-Therapist
 
-```bash
 ---
 
 ## 🔹 Option A: Using uv (Recommended)
-```bash
+
 # uv is a fast Python package manager.
 
 # Create and activate environment
 uv venv
 source .venv/bin/activate   # macOS/Linux
 .\.venv\Scripts\activate    # Windows
-
-# Install dependencies from pyproject.toml
 uv pip install -e .
 
 
@@ -70,9 +70,3 @@ source venv/bin/activate   # macOS/Linux
 # Install dependencies from pyproject.toml
 pip install .
 
----
-
-
-**⚠️ Safety & Disclaimer**
-
-MediMind is not a medical professional. Responses are for informational and supportive purposes only. Always consult a qualified healthcare professional for diagnosis and treatment. The system includes guardrails and system prompts to reduce harmful output, but no AI system is perfect.
